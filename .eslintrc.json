@@ -16,6 +16,7 @@
       "eqeqeq": ["error", "always"],
       "no-console": "off",
       "no-undefined": "off",
+
       "quotes": ["warn", "single"],
       "no-multi-spaces": [
         "warn",
