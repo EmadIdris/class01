@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import HornedBeasts from './HornedBeasts'
+import React, { Component } from 'react';
+import HornedBeasts from './HornedBeasts';
 
 export class Main extends Component {
     render() { 
@@ -25,7 +25,7 @@ export class Main extends Component {
             description: "Someone wearing a creepy unicorn head mask",
             // keyword: "unicorn", 
             horns: 1
-        }]
+        }];
 
         return (
             <div>
@@ -33,7 +33,7 @@ export class Main extends Component {
                 <HornedBeasts title={data[1].title} imgUrl={data[1].image_url} description={data[1].description}/>
                 <HornedBeasts title={data[2].title} imgUrl={data[2].image_url} description={data[2].description}/>
             </div>
-        )
+        );
     }
 }
 
